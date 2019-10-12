@@ -48,7 +48,6 @@
 				<version>1.4.10</version>
 				<configuration>
 					<repository>${docker.image.prefix}/${project.artifactId}</repository>
-					<dockerDirectory>src/main/docker</dockerDirectory>
 					<contextDirectory>./</contextDirectory>
 					<tag>${project.version}</tag>
 					<buildArgs>
