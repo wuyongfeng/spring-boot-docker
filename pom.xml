@@ -5,7 +5,7 @@
 
 	<groupId>com.neo</groupId>
 	<artifactId>spring-boot-docker</artifactId>
-	<version>1.0</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>spring-boot-docker</name>
@@ -49,7 +49,6 @@
 				<version>1.4.10</version>
 				<configuration>
 					<repository>${docker.image.prefix}/${project.artifactId}</repository>
-					<tag>${project.version}</tag>
 					<buildArgs>
 						<JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
 					</buildArgs>
